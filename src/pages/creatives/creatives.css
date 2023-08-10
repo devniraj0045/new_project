@@ -1,0 +1,57 @@
+.container__creative{
+    margin-top: 5rem;   
+    background-image: linear-gradient(to bottom, white, hsl(0, 1%, 82%));
+    width: 100vw;
+    height: 200%;
+    display: grid;
+    color: black;
+}
+.web__continer{ 
+    height: 100%;
+    /* display: grid; */
+    grid-template-columns:1fr 1fr ;
+     gap: 2rem; 
+    margin-top: -15rem;
+ padding-right: 10rem;
+ padding-left: 10rem;
+}
+.container__Pargraph{
+    margin-top: 10rem;
+    text-align: left;
+    /* position: relative;  */
+    margin-right:18rem;
+    
+}
+.container__Right{
+    align-items: right;
+    text-align: left;
+    margin-left: 18rem;
+     margin-top: 5rem; 
+}
+.container__bottom-Pargraph{
+    text-align: left;
+    margin-top: 5rem;
+    margin-right:18rem;
+    margin-bottom: 5rem;
+
+}
+.bottom{
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin-top:1rem;
+    padding: 0.7rem 2rem;
+    background-color:black;
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+.bottom:hover{
+    background: rgba(255, 255, 255, 0);
+    color: black;
+    border-radius: 0.5rem
+}
+.bottom.lg{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+   font-size: 1.1rem; 
+
+}

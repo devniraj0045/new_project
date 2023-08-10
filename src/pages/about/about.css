@@ -1,0 +1,136 @@
+
+.main__header{
+    width: 100vw;
+    height:100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 4rem ;  
+    /* background: white; */
+    background-image: linear-gradient(to bottom, white, hsl(0, 1%, 82%));
+   /*
+   background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);  
+        */                                       
+
+}
+.main__header-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+
+}
+
+
+.main__header-left h4{
+    margin-bottom: 1rem;
+    color:var(--color-secondary);
+    font-weight: 400;
+
+}
+.main__header-left p{
+    margin:1rem 0 3.5rem;
+    font-size: 1.1rem;
+
+
+}
+.main__header-right{    
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.main__header-circle{
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(0deg, rgb(198, 198, 198), transparent);
+    border-radius: 50%;
+    position: absolute;
+}
+.main__header-image{
+    position: relative;
+}
+.main__header-right:hover.main__herder-circle{
+    filter: blur(15px);
+}
+
+/*----program----*/
+.programs
+{
+   
+    background-color:hsl(0, 1%, 82%);
+    padding-bottom: 2rem;
+    width: 100vw;
+    color: black;
+}
+
+.programs__wrapper{
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    gap: 2.8rem;
+    color: black;
+    /* margin-top: 4rem; */
+    
+
+}
+.card__program {
+    margin-top: 3rem;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: black;
+}
+
+  .text__container{
+    color: black;
+  }
+
+  
+  .swiper-slide {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 18px;
+    background:rgb(230, 230, 230);
+    color: black;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text__abc{
+    margin: 2rem;
+  }
+  
+  .swiper-slide img {
+    align-items: center;
+    width: 75%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid rgb(246, 246, 246);
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .swiper {
+    width: 75%;
+    height: 300px;
+    margin: 20px auto;
+  }
+  .text__abc{
+    position: relative;
+  
+
+  }
+
+
+@media screen and (max-width:600px) {
+  .permalinks {
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+  .footer__socials {
+      margin-bottom: 2.6rem;
+  }
+}
